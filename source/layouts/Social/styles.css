@@ -1,0 +1,82 @@
+.social {
+	background-color: #460f42;
+}
+
+h2.socialHeading
+{
+color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase
+}
+
+.socialContainer {
+text-align: center;
+padding: 40px 0 0 0;
+margin: 0 auto;
+max-width: 1175px
+}
+
+.socialFeeds {
+	
+}
+
+.socialFeeds p {
+	color: #fff;
+}
+
+.socialFeedLoader
+{
+  color: #fff;
+}
+
+.flex-control-nav li {
+display: none !important;
+}
+
+.flex-viewport .social-feed-element {
+	min-height: 480px;
+	box-shadow: none;
+	margin-right: 10px !important;
+	background-color: #ebe5d9;
+}
+
+.pull-right {
+    float: none !important;
+	color: #00aeef;
+}
+
+.social-feed-element .content {
+padding: 0px !important;	
+}
+
+.social-feed-element .content.no-image p {
+font-size: 1.5em !important;
+line-height: 1.3em;
+}
+
+.social-feed-element p.social-feed-text {
+padding: 10px 10px 0 0;	
+}
+
+.social-image {
+margin-bottom: 20px;	
+}
+
+.socneticon {
+	position: absolute;	
+}
+
+.fa {
+color: #fff;
+background-color: #460f42;
+padding: 10px;
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+.social-feed-element .media-object {
+margin-left: 5px;	
+width: 38px;
+}

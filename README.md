@@ -1,6 +1,6 @@
 # Running Down Dementia
 
-It's a static site generator written in React.
+It's a static site generator written in React. Based on the boiler room template. 
 
 ## Get started
 

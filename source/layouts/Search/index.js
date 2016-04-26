@@ -1,10 +1,23 @@
 import React from 'react'
 import styles from './styles.css'
+import PageSearchModal from 'edh-widgets/src/components/search/PageSearchModal'
 
-export default ({ currentPage = '' }) => (
-     
-   <section>        
-    <div id="search" className={styles.search}>
+
+
+export default class extends React.Component {
+  constructor(){
+    super()
+    this.state = {
+      pageSearchActive: false
+    }
+  }
+
+  render () {
+    return (
+      <section className={ styles.support }>
+               
+        
+         <div id="search" className={styles.search}>
         <div className={styles.searchContainer}>
         
 
@@ -14,7 +27,16 @@ export default ({ currentPage = '' }) => (
                         
                          <input type="text" className={styles.searchInput} title="Enter you friends name." placeholder="FIND A SUPPORTER" id="findmyfriend" name="findmyfriend"/>
                         
-                        <span><input type="submit" className={styles.searchButton} value="SEARCH"/></span>
+                        <a  className={styles.searchButton} onClick={ () => { this.setState({ pageSearchActive: true }) } }>Search</a>
+                         { this.state.pageSearchActive
+                            ? <PageSearchModal
+                                campaignUid="gb-4943"
+                                country="uk"
+                                renderIcon={ false }
+                                onClose={ () => { this.setState({ pageSearchActive: false }) } }
+                            />
+                            : null
+                        }
                        
                 </div>
             </form>
@@ -23,6 +45,11 @@ export default ({ currentPage = '' }) => (
             <div className="clear_both"></div>
         </div>
         </div>
-</section>    
+        
+      </section>
+        
+       
    
-)
+    )
+  }
+}

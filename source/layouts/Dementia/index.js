@@ -1,8 +1,21 @@
 import React from 'react'
 import styles from './styles.css'
+import Tabs from 'edh-widgets/src/components/tabs/Tabs'
 
-export default ({ currentPage = '' }) => (
+
+export default class extends React.Component {  
     
+    handleClick(){
+        
+        console.log (this.props.className)
+	    
+	
+    }
+
+    render () {
+    return (
+        
+         
   <div id="dementia" className={styles.dementia}>
  <div className={styles.dementiaContainer}>
  
@@ -52,7 +65,7 @@ export default ({ currentPage = '' }) => (
 <div className="clear_both"></div>
 </div>
 </div>
+    )
+  }
 
-
-
-)
+}

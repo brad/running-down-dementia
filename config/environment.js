@@ -6,7 +6,7 @@ const config = {
     },
     'client': {
       'host': 'http://everydayhero.github.io',
-      'basePath': '/boiler-room'
+      'basePath': '/running-down-dementia'
     }
   },
   'production': {
@@ -16,7 +16,7 @@ const config = {
     },
     'client': {
       'host': 'http://everydayhero.github.io',
-      'basePath': '/boiler-room'
+      'basePath': '/running-down-dementia'
     }
   },
   'development': {

@@ -1,12 +1,12 @@
-# Boiler Room
+# Running Down Dementia
 
 It's a static site generator written in React.
 
 ## Get started
 
 ```
- $ git clone git@github.com:everydayhero/boiler-room.git
- $ cd boiler-room
+ $ git clone git@github.com:everydayhero/running-down-dementia.git
+ $ cd running-down-dementia
  $ npm i
  $ npm run dev
 ```

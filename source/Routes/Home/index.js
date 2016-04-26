@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import store from '../../store'
 import fetchPage from '../../store/actions/fetchPage'
 
-import SimplePage from '../../components/SimplePage'
+import Home from '../../components/Home'
 import FourOhFour from '../../components/FourOhFour'
 
 const isFetched = ({ status }) =>
@@ -40,5 +40,5 @@ export default connect(
 
   const { title, body } = content
 
-  return <SimplePage title={title} body={body} />
+  return <Home title={title} body={body} />
 })

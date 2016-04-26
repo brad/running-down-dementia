@@ -1,0 +1,67 @@
+.banner {
+/*background-color: #42403e;*/
+background-image: url(layouts/Header/1banner_background.jpg);	
+background-position: center top;
+background-repeat: repeat-x;
+background-size: cover;
+}
+
+.bannerContainer {
+    text-align: center;
+	padding: 50px 0 20px 0;
+    margin: 0 auto;
+    max-width: 1175px;
+}
+
+h2.bannerContainer {
+color: #fff;
+font-size: 2em !important;
+font-weight: 300;
+width: 65%;
+margin: 40px auto 40px auto;
+text-transform: uppercase;
+}
+
+h3.bannerContainer {
+color: #fff;
+font-size: 1.3em !important;
+font-weight: 300;
+width: 85%;
+margin: 0px auto 0px auto;
+text-transform: none;
+}
+
+.bannerContainer .registerButton a {
+background-color: #8b8d09;
+color: #fff;
+padding: 10px 30px;	
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.bannerContainer .iconsContainer {
+width: 70%;
+margin: 70px auto;	
+}
+
+.bannerContainer .iconsBox {
+width: 20%;	
+float: left;
+}
+
+.bannerContainer .iconsBox span {
+text-transform: uppercase;
+color: #fff;
+display: block;
+padding-top: 20px;
+}
+
+
+img.arukPRLogo {
+	
+}
+
+.bannercontainer {
+padding: 0;	
+}
+

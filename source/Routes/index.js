@@ -3,20 +3,21 @@ import { Route, IndexRoute } from 'react-router'
 
 import { context } from '../config'
 
-import SimpleContent, { fetchContent } from './SimpleContent'
+import Home, { fetchContent } from './Home'
 
 export default (
   <Route
     path={`${context.basePath}/`}
     component={({ children }) => children}>
     <IndexRoute
-      component={SimpleContent}
+      component={Home}
       onEnter={fetchContent}
     />
     <Route
       path='*'
-      component={SimpleContent}
+      component={Home}
       onEnter={fetchContent}
     />
   </Route>
 )
+

@@ -1,0 +1,51 @@
+
+.getGoing {
+    background-color: #460f42;
+    color: #fff;
+}
+
+h2.getsGoing{
+    color: #fff;
+}
+
+
+h3.getsGoing{
+    color: #fff;
+}
+
+p.getsGoing{
+    color: #fff;
+}
+
+.sectionIcon {
+    text-align: center;
+}
+
+.getsGoingContainer
+{
+	margin: 0 auto;
+    max-width: 1175px;
+    padding: 50px 0;
+}
+
+
+.iconsContainer {
+    margin: 70px auto;
+}
+
+.iconsBox
+{
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+.iconsBoxArrow {
+    float: left;
+    text-align: center;
+    width: 5%;
+}
+
+.clearBoth {
+    clear: both;
+}

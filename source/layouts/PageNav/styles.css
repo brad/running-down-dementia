@@ -1,0 +1,84 @@
+.navBar {
+  border:none;
+  padding-top: 50px;
+}
+
+.navBarBlendTop {
+
+}
+
+ .navBarBlendTop .navBar-collapse, .navBarBlendTop .navBarForm {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    text-align: center;
+}
+
+.navBarHeader {
+/*max-width: 1175px;*/
+width: 100%;	
+margin: 0 auto;
+float: none;
+}
+
+/* top menu */
+
+#mobilemenu {
+display: none !important;	
+}
+
+.navBarMenu {
+float: left;
+width: 50%;
+
+}
+
+.navBarMenu ul {
+margin: 0;
+padding: 0;	
+float: left;
+}
+
+.navBarMenu ul li,
+.tools ul li {
+float: left;
+list-style-type: none;
+padding: 0px;
+margin-left: 20px;
+}
+
+.navBarMenu ul li a,
+.tools ul li a {
+padding: 10px;
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+}
+
+.navBarMenu ul li a:hover {
+background-color: #ccc;
+color: #000;
+}
+
+.tools {
+float: right;
+width: 50%;	
+}
+
+.tools ul {
+margin: 0;
+padding: 0;	
+float: right;
+}
+
+.tools a.login {
+border: 1px solid #fff;
+width: 20%;
+text-align: center;
+    padding: 10px 50px;	
+	    margin: 0 10px;
+}
+
+.bannerContainer {
+	text-align: center;
+	padding: 50px 0 20px 0;
+}

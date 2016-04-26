@@ -1,0 +1,133 @@
+.dementia
+{
+    background-color: #fff;
+}
+
+.dementia p
+{
+    color: #8b8d09;
+}
+
+.dementiaContainer
+{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1175px;
+    padding: 50px 0;
+}
+
+
+
+.tabsContainer
+{
+    border: 1px solid #8b8d09;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.tabs {
+    background: #8b8d09 none repeat scroll 0 0;
+    color: #fff;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tabsListItem {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+}
+
+.current {
+    background: #4b3905 none repeat scroll 0 0;
+    color: #fff;
+}
+
+
+.tabsContentCurrent
+{
+  display: inherit;
+  padding: 15px;
+}
+
+.tabContent {
+    background: transparent none repeat scroll 0 0;
+    display: none;
+    padding: 15px;
+}
+
+.iconBox
+{
+    border-bottom: 1px solid #8b8d09;
+    float: left;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    width: 50%;
+}
+
+.iconBoxTwo
+{
+    border-bottom: 1px solid #4b3905;
+    float: left;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    width: 50%;
+}
+
+
+
+.text
+{
+    border-left: 1px solid #8b8d09;
+    color: #8b8d09;
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.textTwo
+{
+    border-left: 1px solid #4b3905;
+    color: #4b3905;
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.iconBoxLarge
+{
+    display: block;
+    font-size: 5em;
+    font-weight: 300;
+    margin-top: -25px;
+}
+
+
+.iconBoxOneImage
+{
+    color: #8b8d09;
+    float: left;
+    font-weight: bold;
+    width: 120px;
+}
+
+.iconBoxTwoImage
+{
+    color: #4b3905;
+    float: left;
+    font-weight: bold;
+    width: 155px;
+}
+
+h4.dementiaHeading
+{
+    display:none;
+}

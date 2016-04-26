@@ -6,7 +6,7 @@ import chaiEnzyme from 'chai-enzyme'
 import jsdom from 'mocha-jsdom'
 
 import { configureStore } from '../../../store'
-import SimpleContent from '../'
+import Home from '../'
 
 chai.use(chaiEnzyme())
 
@@ -25,7 +25,7 @@ const setUp = (initialState = { pages: {} }, props = { params: { splat: '' } }) 
   const store = configureStore(initialState)
   const component = (
     <Provider store={store}>
-      <SimpleContent { ...props } />
+      <Home { ...props } />
     </Provider>
   )
   const wrapper = mount(component)
@@ -37,7 +37,7 @@ const setUp = (initialState = { pages: {} }, props = { params: { splat: '' } }) 
   }
 }
 
-describe('SimpleContent', () => {
+describe('Home', () => {
   jsdom()
 
   describe('props.params.splat', () => {

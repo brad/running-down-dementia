@@ -1,5 +1,6 @@
 import React from 'react'
 import NavLink from '../../components/NavLink'
+import Stats from '../../components/Stats'
 import PageNav from '../PageNav'
 import styles from './styles.css'
 
@@ -20,7 +21,7 @@ export default (props) => (
         <div className={styles.registerButton}><a href="https://registration.everydayhero.com/ps/event/AlzheimersResearchUKParkrun">Register for free</a></div>
         
         <div id="edh_totals" className={styles.iconsContainer}>
-        
+            <Stats/>
         </div>
 
         </div>

@@ -1,0 +1,73 @@
+
+.storyBox {
+	width: 33%;
+	float: left;
+}
+
+.storyPic {
+
+}
+
+.storyPic img {
+	width: 150px;
+	height: auto;
+	border-radius: 100px;
+}
+
+.storyName {
+	text-align: center;
+}
+
+.storyName p {
+	color: #460f42;
+	font-size: 1.4em !important;
+	font-weight: bold;
+}
+
+
+
+
+.storyDescr p {
+	font-size: 0.8em !important;
+    padding: 0 30px;
+}
+
+
+.storyMore a {
+	color: #460f42;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.storyMore a:hover {
+	color: #fff;
+}
+
+.storyButton {
+
+}
+
+.storyButton a {
+	background-color: #460f42;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	margin: 10px auto 0 auto;
+	width: 140px;
+}
+
+.storyButton a:hover {
+	background-color: #fff;
+	color: #460f42;
+}
+
+
+.clearBoth
+{
+ clear:both;
+}

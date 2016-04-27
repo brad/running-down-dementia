@@ -1,0 +1,29 @@
+.personalStories {
+    background-color: #f36b22;
+}
+
+
+.personalStoriesContainer
+{
+	margin: 0 auto;
+    max-width: 1175px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.personalStoriesContainer h2{
+  color: #fff;
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase
+}
+
+.sectionIcon {
+    text-align: center;
+}
+
+.clearBoth
+{
+ clear:both;
+}

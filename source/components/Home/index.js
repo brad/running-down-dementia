@@ -8,19 +8,21 @@ import Dementia from '../../layouts/Dementia'
 import Join from '../../layouts/Join'
 import Community from '../../layouts/Community'
 import Social from '../../layouts/Social'
+import PersonalStories from '../../layouts/PersonalStories'
 import styles from './styles.css'
 
 export default ({ title, body }) => (
   <DocumentTitle title={title}>
     <Main title={title}>     
-      <section className={styles.base}>
+     
         <Intro/>   
         <Search/>
         <Dementia/>
         <Join/>
         <Community/> 
-        <Social/>   
-      </section>
+        <PersonalStories/>
+        <Social/>          
+     
     </Main>
   </DocumentTitle>
 )

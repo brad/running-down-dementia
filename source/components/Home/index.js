@@ -9,20 +9,19 @@ import Join from '../../layouts/Join'
 import Community from '../../layouts/Community'
 import Social from '../../layouts/Social'
 import PersonalStories from '../../layouts/PersonalStories'
-import styles from './styles.css'
 
-export default ({ title, body }) => (
+export default ({ title = 'Running Down Dementia', body }) => (
   <DocumentTitle title={title}>
-    <Main title={title}>     
-     
-        <Intro/>   
+    <Main title={title}>
+
+        <Intro/>
         <Search/>
         <Dementia/>
         <Join/>
-        <Community/> 
+        <Community/>
         <PersonalStories/>
-        <Social/>          
-     
+        <Social/>
+
     </Main>
   </DocumentTitle>
 )

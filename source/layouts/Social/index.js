@@ -9,7 +9,8 @@ export default class extends React.Component {
     if (typeof $ !== 'undefined') {
       createSocialFeed($, window, document, Codebird)
       $(document).ready(function() {
-        console.log ('Social Feed Start');
+        
+        
         $('.social-slides').socialfeed({
           // INSTAGRAM
             instagram: {
@@ -61,7 +62,7 @@ export default class extends React.Component {
         });
       });
       
-      console.log ('Social Feed End');
+      
     }
   }
 

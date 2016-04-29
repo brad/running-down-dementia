@@ -131,3 +131,29 @@ h4.dementiaHeading
 {
     display:none;
 }
+
+
+.iconsContainerTwo
+{
+
+}
+
+.iconsContainerTwo .iconBoxOneImage
+{
+    border-bottom: medium none;
+    border-right: 1px solid #8b8d09;
+    text-align: center;
+    width: 99%;
+}
+
+.iconsContainerTwo .iconBox
+{
+    border-bottom: medium none;
+}
+
+
+.iconsContainerTwo .iconBoxTwoImage {
+    border: medium none;
+    text-align: center;
+    width: 99%;
+}

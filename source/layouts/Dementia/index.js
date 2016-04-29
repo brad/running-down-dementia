@@ -1,13 +1,19 @@
 import React from 'react'
 import styles from './styles.css'
-import Tabs from 'edh-widgets/src/components/tabs/Tabs'
 
 
 export default class extends React.Component {  
     
-    handleClick(){
+    
+    
+    handleClick(i){
         
-        console.log (this.props.className)
+        
+        $('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$("#nav-tab-"+ i).addClass('current');
+		$("#tab-"+ i).addClass('current');
 	    
 	
     }
@@ -21,12 +27,12 @@ export default class extends React.Component {
  
 <div className={styles.tabsContainer}>
 
-  <ul className={styles.tabs}>
-    <li className={styles.tabsListItem} data-tab="tab-1">Dementia is a big problem</li>
-    <li className={styles.tabsListItem} data-tab="tab-2">Let's run it down</li>
+  <ul className="tabs">
+    <li id="nav-tab-1" className="tab-link current" data-tab={1} onClick={this.handleClick.bind(null,1)}>Dementia is a big problem</li>
+    <li id="nav-tab-2" className="tab-link" data-tab={2} onClick={this.handleClick.bind(null,2)}>Let's run it down</li>
   </ul>
 
-  <div id="tab-1" className={styles.tabsContentCurrent}>
+  <div id="tab-1" className="tab-content current" >
     <p>Dementia is a condition that robs over 850,000 UK people of their memories and other abilities, and and their loved ones of the independent person they knew.</p>
 <div className={styles.iconContainer}>
 <h4 className={styles.dementiaHeading}>DEMENTIA, WE HAVE YOU OUTNUMBERED!</h4>
@@ -48,9 +54,9 @@ export default class extends React.Component {
         
         </div>
   </div>
-  <div id="tab-2" className={styles.tabContent}>
+  <div id="tab-2" className="tab-content">
 <p>Money raised from Running Down Dementia will support Alzheimer’s Research UK’s ambitious risk reduction research. While evidence suggests a healthy lifestyle, particularly in midlife, can help reduce dementia risk, there is still too much we don’t know about how to reduce our chances of developing the condition. We are setting out to answer the big questions in dementia prevention, funding big research ideas that will empower all of us to take control of our own dementia risk.</p>
-<div className="iconscontainer">
+<div className={styles.iconsContainerTwo}>
         <div className={styles.iconBox}><div className={styles.iconBoxOneImage}><img src="http://network-pages.s3.amazonaws.com/UK/heroix/alzheimerresearchuk/parkrun/images/4dementia_icon_parkrun.png" /></div></div>
         <div className={styles.iconBox}><div className={styles.iconBoxTwoImage}><img src="http://network-pages.s3.amazonaws.com/UK/heroix/alzheimerresearchuk/parkrun/images/4dementia_icon_aruk.png" /></div></div>
         <p>That’s why the Parkrun community is partnering with Alzheimer’s Research UK in <strong>Running Down Dementia</strong> and why we are encouraging YOU to join our movement.</p><p><strong>This is your chance to be part of the vanguard that defeats dementia.</strong></p>
@@ -65,6 +71,9 @@ export default class extends React.Component {
 <div className="clear_both"></div>
 </div>
 </div>
+
+
+
     )
   }
 

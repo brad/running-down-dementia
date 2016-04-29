@@ -19,11 +19,11 @@ class PersonalStories extends React.Component {
       cache: false,
       success: function(data) {
         this.setState({data: data.pages});
-        console.log(data.pages)
+        
       }.bind(this),
       error: function(xhr, status, err) {
         console.error(this.props.url, status, err.toString());
-        console.log(error);
+        
       }.bind(this)
     }); 
   }

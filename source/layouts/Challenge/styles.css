@@ -1,0 +1,110 @@
+
+.challenge
+{
+    background-color: #d9d0ba;
+}
+
+.challenge h3
+{
+    font-size: 1.5em !important;
+    margin: 20px 0 0;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.challenge h4
+{
+    display: none;
+}
+
+.challengeContainer
+{
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1175px;
+}
+
+.iconsContainer
+{
+    text-align: center;
+}
+
+.iconsBoxContainer
+{
+    float: left;
+    width: 49%;
+}
+
+
+.iconsSubText
+{
+  display: block;
+    font-size: 2.3em;
+    font-weight: 300;
+    text-transform: none;
+}
+
+
+.iconsSubTextTwo
+{
+    font-size: 1em;
+    padding-bottom: 10px;
+    display:block;
+    font-weight: 300;
+    text-transform: none;
+}
+
+
+.iconsBoxContainerTwo
+{
+    min-height: 360px;
+    background-color: #e1d9c7;
+    padding: 0 0 20px;
+    float: left;
+    width: 49%;
+}
+
+
+.iconsBoxSubContainer
+{
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 70%;
+}
+
+.iconsBox
+{
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.iconsBoxTwo
+{
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.iconsBoxContainerTwo .iconsbox {
+    width: 100%;
+}
+
+
+.iconsBoxContainerTwo .iconsBox img {
+    height: 150px;
+    width: auto;
+}
+
+
+.clearBoth
+{
+ clear:both;
+}

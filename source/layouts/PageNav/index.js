@@ -9,7 +9,7 @@ export default ({ currentPage = '' }) => (
 
       <div className={styles.navbarHeader}>
       
-        <div id={styles.mobilemenu}>
+        <div id="mobilemenu" className={styles.mobilemenu}>
           <div className={styles.mobileMenuHolder}>
               <img src="/layouts/PageNav/1banner_icon_mobilemenu.png" width="50" height="50" alt=""/>
           </div>

@@ -16,7 +16,7 @@ class StatsValue extends React.Component {
             dataType: 'json',
             cache: false,
             success: function(data) {  
-                console.log(data.meta);      
+                      
                 this.setState({
                 data: data.meta, 
                 });

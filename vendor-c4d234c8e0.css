@@ -1,0 +1,71 @@
+#dementia {
+  background-color: #fff; }
+
+.dementiacontainer {
+  /*width: 60%;*/
+  width: 90%;
+  margin: 0 auto; }
+
+#dementia p {
+  color: #8b8d09; }
+
+#dementia .iconsbox {
+  border-bottom: 1px solid #8b8d09;
+  width: 50%;
+  float: left;
+  padding: 20px 0;
+  margin-bottom: 20px; }
+
+#dementia .iconscontainer h4 {
+  border-top: 1px solid #8b8d09;
+  color: #8b8d09;
+  margin-bottom: 0px;
+  padding-top: 15px; }
+
+#dementia .iconsbox.one .image {
+  float: left;
+  width: 120px;
+  font-weight: bold;
+  color: #8b8d09; }
+
+#dementia .iconsbox.two .image {
+  float: left;
+  width: 155px;
+  font-weight: bold;
+  color: #4b3905; }
+
+#dementia .iconsbox.one .text {
+  float: left;
+  width: 50%;
+  border-left: 1px solid #8b8d09;
+  color: #8b8d09;
+  padding-left: 20px; }
+
+#dementia .iconsbox.two .text {
+  float: left;
+  width: 50%;
+  border-left: 1px solid #4b3905;
+  color: #4b3905;
+  padding-left: 20px; }
+
+#dementia .iconsbox span {
+  font-size: 5em;
+  display: block;
+  font-weight: 300;
+  margin-top: -25px; }
+
+#dementia #tab-2 .iconsbox,
+#dementia #tab-2 .iconsbox.one .text,
+#dementia #tab-2 .iconsbox.two .text {
+  border: none; }
+
+#dementia #tab-2 .iconsbox.one .image {
+  border-right: 1px solid #8b8d09;
+  border-bottom: none;
+  width: 99%;
+  text-align: center; }
+
+#dementia #tab-2 .iconsbox.two .image {
+  border: none;
+  width: 99%;
+  text-align: center; }

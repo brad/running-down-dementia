@@ -32,7 +32,7 @@ class PersonalStories extends React.Component {
     return (    
       <section className={styles.personalStories}>
         <div className={styles.personalStoriesContainer}>
-          <div className={styles.sectionIcon}><img src="http://network-pages.s3.amazonaws.com/UK/heroix/alzheimerresearchuk/parkrun/images/2getgoing_icon_parkrun.png" />
+          <div className={styles.sectionIcon}><img src="/assets/img/2getgoing_icon_parkrun.png" />
             <h2>Personal stories</h2>
           </div>
            <PersonalStoryList data={this.state.data} />

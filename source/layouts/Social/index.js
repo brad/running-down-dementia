@@ -33,7 +33,7 @@ export default class extends React.Component {
             consumer_secret: 'HL23xjNkzaIi14DADzIlSRm4QvFF42lzYq2Ux0UYYKuq7Fm1Hz',
             },
           // GENERAL SETTINGS
-          length: 50,
+          length: 100,
           show_media: true,
           media_min_width: 100,
           touch:true,
@@ -58,8 +58,25 @@ export default class extends React.Component {
                 
                 </div>
                 </li>
-                `
+                `,
+             callback: function() {
+                $('.social-feed-wrapper .social-feed-element .content').each(function(i) {
+                    if (!$(this).find('.social-image img').length) {
+                      $(this).addClass('no-image');
+                    }
+                  });
+                  $('.social-feed-wrapper').flexslider({
+                    animation: "slide",
+                    animationLoop: false,
+                    itemWidth: 300
+                  });
+                  $('.social-feed-loader').hide();
+                  $('.social-feed-wrapper').show();
+                }
         });
+        
+        
+        
       });
       
       
@@ -68,13 +85,13 @@ export default class extends React.Component {
 
   render () {
     return (
-      <section className="social-feed">
+      <section className={styles.socialFeeds}>
             <div id="social" className={styles.social}>
             <div className={styles.socialContainer}>
             <div className={styles.sectionIcon}><img src="assets/img/11social_icon_twitter.png" />
                 <h2 className={styles.socialHeading}>#runningdowndementia</h2></div>
 
-            <div className={styles.socialFeedLoader}>
+            <div id="socialLoader" className="social-feed-loader">
                 <i className="fa fa-spin fa-spinner fa-pulse"></i>
                 </div>
                 <div className="social-feed-wrapper">

@@ -1,3 +1,65 @@
+
+:global(#leaderboards .tabcontainer){
+			width: 100%;
+			margin: 0 auto;
+			border: 1px solid #fff;
+		}
+
+
+
+		:global(#leaderboards ul.tabs){
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+			color: #fff;
+			background-color: #c7eafc;
+		}
+		
+		:global(#leaderboards ul.tabs li){
+			background-image: url(/assets/img/8leaderboards_icon_whitearrow.png);
+			background-position: 90% 50%;
+			background-repeat: no-repeat;
+			color: #fff;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+			text-transform: uppercase;
+			width: 30.3%;
+			text-align: center;
+			font-weight: bold;
+			border: 1px solid #fff;
+			background-color: #00aeef;
+		}
+		
+			:global(div#leaderboards div.tabcontainer div.tabcontainer li.tab-link) {
+			width: 47%;
+		}
+
+		:global(#leaderboards ul.tabs li.current){
+			background: #fff;
+			color: #00aeef;
+			background-image: url((/assets/img/8leaderboards_icon_bluearrow.png);
+			background-position: 90% 50%;
+			background-repeat: no-repeat;
+		}
+
+		:global(#leaderboards .tab-content){
+			display: none;
+			background: transparent;
+			padding: 0px;
+			
+		}
+
+		:global(#leaderboards .tab-content.current){
+			display: inherit;
+		}
+
+
+
+
+
+
+
 .leaderboards {
 	background-color: #c7eafc;
 }
@@ -19,3 +81,5 @@ margin: 0 auto;
 {
  clear:both;
 }
+
+

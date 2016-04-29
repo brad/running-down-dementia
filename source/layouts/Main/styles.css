@@ -133,3 +133,64 @@ font-size: 18px !important;
 		:global(#leaderboards .tab-content.current){
 			display: inherit;
 		}
+
+
+
+
+
+
+
+:global(.flex-control-nav li) {
+display: none !important;
+}
+
+:global(.flex-viewport .social-feed-element) {
+	min-height: 480px;
+	box-shadow: none;
+	margin-right: 10px !important;
+	background-color: #ebe5d9;
+}
+
+:global(.pull-right) {
+    float: none !important;
+	color: #00aeef;
+}
+
+:global(.social-feed-element .content) {
+padding: 0px !important;	
+}
+
+:global(.social-feed-element .content.no-image p) {
+font-size: 1.5em !important;
+line-height: 1.3em;
+}
+
+:global(.social-feed-element p.social-feed-text) {
+padding: 10px 10px 0 0;	
+}
+
+:global(.social-image) {
+margin-bottom: 20px;	
+}
+
+:global(.socneticon) {
+	position: absolute;	
+}
+
+:global(.fa) {
+color: #fff;
+background-color: #460f42;
+padding: 10px;
+margin-top: -20px;
+margin-bottom: 20px;
+}
+
+:global(.social-feed-element .media-object) {
+margin-left: 5px;	
+width: 38px;
+}
+
+
+:global(.social-feed-element .attachment) {
+    vertical-align: middle;
+}

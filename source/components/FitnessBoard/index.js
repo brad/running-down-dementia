@@ -12,8 +12,6 @@ class FitnessBoards extends React.Component {
  componentDidMount()
  {
 
-    console.log ('Fitness');
-    console.log (this.props.campaignid);
     var edh_api='https://everydayhero.com/api/v2/search/fitness_activities_totals.jsonp?callback=?&campaign_id=' + this.props.campaignid + '&group_by=' + this.props.type + '&limit=' + this.props.limit;
 
     $.ajax({

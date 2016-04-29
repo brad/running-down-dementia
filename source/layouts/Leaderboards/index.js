@@ -17,6 +17,10 @@ export default class extends React.Component {
       $("#tab-individuals-content").hide();
       $("#tab-teams-content").hide();
       
+      $( "#tab-parkrun-raised" ).addClass("current");
+      $( "#tab-parkrun-distance" ).removeClass("current");
+      
+      
   }
   
   
@@ -46,6 +50,10 @@ tabParkRunDistanceClick()
      $("#tab-parkrun-content").hide();
     $("#tab-individuals-content").hide();
     $("#tab-teams-content").show();
+    
+     $( "#tab-team-raised" ).addClass("current");
+     $( "#tab-team-distance" ).removeClass("current");
+
 
     
   }
@@ -80,6 +88,9 @@ tabParkRunDistanceClick()
         $("#tab-parkrun-content").hide();
         $("#tab-individuals-content").show();
         $("#tab-teams-content").hide();
+        
+        $( "#tab-individuals-raised" ).addClass("current");
+        $( "#tab-individuals-distance" ).removeClass("current");
   }
  
   tabIndividualsRaisedClick()

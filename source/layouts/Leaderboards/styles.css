@@ -38,7 +38,7 @@
 		:global(#leaderboards ul.tabs li.current){
 			background: #fff;
 			color: #00aeef;
-			background-image: url((/assets/img/8leaderboards_icon_bluearrow.png);
+			background-image: url(/assets/img/8leaderboards_icon_bluearrow.png);
 			background-position: 90% 50%;
 			background-repeat: no-repeat;
 		}

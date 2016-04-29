@@ -12,9 +12,6 @@ class ParkRunBoards extends React.Component {
  componentDidMount()
  {
 
-    console.log ('parrunboard');
-    console.log(this.props.url+'?callback=?');
-
     $.ajax({
       url: this.props.url,
       dataType: 'json',

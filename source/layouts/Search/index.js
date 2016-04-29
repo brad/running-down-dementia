@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles.css'
 import PageSearchModal from 'edh-widgets/src/components/search/PageSearchModal'
+import SearchInputBox from '../../components/SearchInputBox'
 
 
 
@@ -25,7 +26,8 @@ export default class extends React.Component {
                     <div className={styles.searchGroup}>
                         <div className={styles.searchIcon}><img src="/layouts/Search/1banner_magnifyer.png" /></div>
                         
-                         <input type="text" className={styles.searchInput} title="Enter you friends name." placeholder="FIND A SUPPORTER" id="findmyfriend" name="findmyfriend"/>
+                        <SearchInputBox/>
+                     
                         
                         <a  className={styles.searchButton} onClick={ () => { this.setState({ pageSearchActive: true }) } }>Search</a>
                          { this.state.pageSearchActive

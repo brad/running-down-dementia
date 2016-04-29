@@ -1,3 +1,4 @@
+
 .navBar {
   border:none;
   padding-top: 50px;
@@ -22,9 +23,10 @@ float: none;
 
 /* top menu */
 
-#mobilemenu {
-display: none !important;	
+:global(#mobilemenu) {
+    display: none !important;
 }
+
 
 .navBarMenu {
 float: left;
@@ -82,3 +84,66 @@ text-align: center;
 	text-align: center;
 	padding: 50px 0 20px 0;
 }
+
+
+
+
+
+
+
+
+@media (min-width : 300px) 
+and (max-width : 519px) {
+	
+.navbar {
+height: 210px;	
+}
+
+:global(#mobilemenu) {
+display: block !important;
+float: left;
+ margin-left: 0px !important; 
+ margin-right: 30px !important; 
+}
+
+:global(#mobileMenu) {
+display: none;
+float: left;
+margin-top: 170px;
+margin-left: -45px;
+}
+
+.mobilemenuholder {
+float: right;
+margin-top: 10px !important;
+margin-right: 20px;
+}
+
+
+.navbar-menu {
+display: none;	
+clear: both;
+}
+
+.navbar-menu ul li {
+float: none;	
+padding: 10px;
+margin-left: 0px;
+}
+
+.tools {
+	width: auto;
+}
+
+.logo-img img {
+	width: 80%;
+	height: auto;
+	margin: 20px 0;
+}
+
+.mobilemenuholder {
+margin-left: 20px;
+}
+
+}
+	

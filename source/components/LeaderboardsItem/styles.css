@@ -1,0 +1,64 @@
+.item
+{
+list-style-type: none;	
+border-bottom: none;
+color: #000;
+float: left;
+margin: 0px;
+width: 100%;
+line-height: 40px;
+}
+
+.position
+{
+display: block;
+float: left;
+margin-right: 10px;
+color: #a3a3a3;
+text-align: center;
+font-size: 1.1em;
+padding-left: 10px;
+}
+
+.name
+{
+width: 60%;
+float: left;
+padding: 0px 0 0 20px;
+text-align: left;
+}
+
+.name a
+{
+    font-weight: bold;
+    color: #00aeef;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.raised
+{
+width: 25%;
+float: left;
+color: #000;
+}
+
+.photo {
+float: left;	
+}
+
+.photo img {
+width: 45px;
+height: auto;	
+}
+
+
+ul li.item:nth-child(odd)  { 
+		background: transparent;
+	}
+
+
+ul li.item:nth-child(even)
+{
+		background: #fff;
+	}

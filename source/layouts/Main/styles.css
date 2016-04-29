@@ -10,16 +10,25 @@
 	  }
 	  
 
-:global( h1, h2, h3, h4, div, p, input)
-  {
+:global(h1),
+:global(h2),
+:global(h3),
+:global(h4),
+:global(div),
+:global(p),
+:global(input)
+ {
     color: #000;
 font-size: 18px !important;
  font-family: 'Open Sans', sans-serif;
   }
   
-:global(a, a:link, a:hover, a:active) {
+:global(a),
+:global(a:link),
+:global(a:hover),
+:global(a:active) {
 	  color: #2b702b;
-	  }
+}
 
 :global(input){
     color: #000;
@@ -28,3 +37,99 @@ font-size: 18px !important;
 .Main {
    font-family: 'Open Sans', sans-serif;
 }
+
+
+:global(#dementia ul.tabs li) {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 45%;
+    
+    }
+    
+    
+    :global(#dementia ul.tabs) {
+    background: #8b8d09 none repeat scroll 0 0;
+    color: #fff;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}  
+    
+  :global(#dementia ul.tabs li.current) {
+        background: #4b3905 none repeat scroll 0 0;
+        color: #fff;
+    }
+    
+    
+
+
+:global(#dementia .tab-content) {
+    background: transparent none repeat scroll 0 0;
+    display: none;
+    padding: 15px;
+}
+:global(#dementia .tab-content.current) {
+    display: inherit;
+}
+
+
+:global(#leaderboards .tabcontainer){
+			width: 100%;
+			margin: 0 auto;
+			border: 1px solid #fff;
+		}
+
+
+
+		:global(#leaderboards ul.tabs){
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+			color: #fff;
+			background-color: #c7eafc;
+		}
+		
+		:global(#leaderboards ul.tabs li){
+			background-image: url(http://network-pages.s3.amazonaws.com/UK/heroix/alzheimerresearchuk/parkrun/images/8leaderboards_icon_whitearrow.png);
+			background-position: 90% 50%;
+			background-repeat: no-repeat;
+			color: #fff;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+			text-transform: uppercase;
+			width: 30.3%;
+			text-align: center;
+			font-weight: bold;
+			border: 1px solid #fff;
+			background-color: #00aeef;
+		}
+		
+			:global(div#leaderboards div.tabcontainer div.tabcontainer li.tab-link) {
+			width: 47%;
+		}
+
+		:global(#leaderboards ul.tabs li.current){
+			background: #fff;
+			color: #00aeef;
+			background-image: url(http://network-pages.s3.amazonaws.com/UK/heroix/alzheimerresearchuk/parkrun/images/8leaderboards_icon_bluearrow.png);
+			background-position: 90% 50%;
+			background-repeat: no-repeat;
+		}
+
+		:global(#leaderboards .tab-content){
+			display: none;
+			background: transparent;
+			padding: 0px;
+			
+		}
+
+		:global(#leaderboards .tab-content.current){
+			display: inherit;
+		}

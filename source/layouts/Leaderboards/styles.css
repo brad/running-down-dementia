@@ -1,0 +1,21 @@
+.leaderboards {
+	background-color: #c7eafc;
+}
+
+.leaderboardsContainer {
+text-align: center;
+padding: 40px 0;
+margin: 0 auto;
+    max-width: 1175px;
+}
+
+.leaderboards h2 {
+
+}
+
+
+
+.clearBoth
+{
+ clear:both;
+}

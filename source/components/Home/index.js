@@ -9,6 +9,9 @@ import Join from '../../layouts/Join'
 import Community from '../../layouts/Community'
 import Social from '../../layouts/Social'
 import PersonalStories from '../../layouts/PersonalStories'
+import Challenge from '../../layouts/Challenge'
+import Maps from '../../layouts/Maps'
+import Leaderboards from '../../layouts/Leaderboards'
 import styles from './styles.css'
 
 export default ({ title, body }) => (
@@ -18,8 +21,11 @@ export default ({ title, body }) => (
         <Intro/>   
         <Search/>
         <Dementia/>
+        <Challenge/>
         <Join/>
-        <Community/> 
+        <Community/>
+        <Maps/>
+        <Leaderboards/> 
         <PersonalStories/>
         <Social/>          
      

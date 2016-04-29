@@ -516,7 +516,7 @@ width: 38px;
 }
 ._layouts_Header__banner {
 /*background-color: #42403e;*/
-background-image: url(layouts/Header/1banner_background.jpg);	
+background-image: url(http://everydayhero.github.io/running-down-dementia/layouts/Header/1banner_background-24be2e8895.jpg);
 background-position: center top;
 background-repeat: repeat-x;
 background-size: cover;
@@ -550,18 +550,18 @@ text-transform: none;
 ._layouts_Header__bannerContainer ._layouts_Header__registerButton a {
 background-color: #8b8d09;
 color: #fff;
-padding: 10px 30px;	
+padding: 10px 30px;
 text-decoration: none;
 text-transform: uppercase;
 }
 
 ._layouts_Header__bannerContainer ._layouts_Header__iconsContainer {
 width: 70%;
-margin: 70px auto;	
+margin: 70px auto;
 }
 
 ._layouts_Header__bannerContainer ._layouts_Header__iconsBox {
-width: 20%;	
+width: 20%;
 float: left;
 }
 
@@ -574,11 +574,11 @@ padding-top: 20px;
 
 
 img._layouts_Header__arukPRLogo {
-	
+
 }
 
 ._layouts_Header__bannercontainer {
-padding: 0;	
+padding: 0;
 }
 
 
